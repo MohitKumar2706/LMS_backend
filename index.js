@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://6824c5fa6f53232bf22fa847--mohitlms.netlify.app/",
     credentials:true
 }));
  
